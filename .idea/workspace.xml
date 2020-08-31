@@ -28,6 +28,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,5 +84,9 @@
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
     <state width="1354" height="264" key="GridCell.Tab.0.right/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050013" />
+    <state x="480" y="194" key="SettingsEditor" timestamp="1598900385552">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="480" y="194" key="SettingsEditor/61.27.1859.1053@61.27.1859.1053" timestamp="1598900385552" />
   </component>
 </project>
