@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e4d772f-55e6-4312-af9d-42b7c0f4e6c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.15rc2" />
+  <component name="ProjectId" id="1grbYTb4LeHWFCQeLK5kfAK2SqE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Makefile" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1152" y="432" width="400" height="327" key="#Go_Modules" timestamp="1598878495070">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="1152" y="432" width="400" height="327" key="#Go_Modules/61.27.1859.1053@61.27.1859.1053" timestamp="1598878495070" />
+    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598898887509">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser/61.27.1859.1053@61.27.1859.1053" timestamp="1598898887509" />
+    <state x="1239" y="465" width="216" height="261" key="EnvironmentVariablesDialog" timestamp="1598878492405">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="1239" y="465" width="216" height="261" key="EnvironmentVariablesDialog/61.27.1859.1053@61.27.1859.1053" timestamp="1598878492405" />
+    <state width="1354" height="264" key="GridCell.Tab.0.bottom" timestamp="1598877050013">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state width="1354" height="264" key="GridCell.Tab.0.bottom/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050013" />
+    <state width="1354" height="264" key="GridCell.Tab.0.center" timestamp="1598877050012">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state width="1354" height="264" key="GridCell.Tab.0.center/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050012" />
+    <state width="1354" height="264" key="GridCell.Tab.0.left" timestamp="1598877050012">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state width="1354" height="264" key="GridCell.Tab.0.left/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050012" />
+    <state width="1354" height="264" key="GridCell.Tab.0.right" timestamp="1598877050013">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state width="1354" height="264" key="GridCell.Tab.0.right/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050013" />
+  </component>
+</project>
