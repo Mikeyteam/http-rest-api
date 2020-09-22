@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4d772f-55e6-4312-af9d-42b7c0f4e6c4" name="Default Changelist" comment="" />
+    <list default="true" id="2e4d772f-55e6-4312-af9d-42b7c0f4e6c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal/app/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/model/validations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/sqlstore/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/sqlstore/store_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/sqlstore/testing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/sqlstore/userrepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/sqlstore/userrepository_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/teststore/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/teststore/userrepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/store/teststore/userrepository_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200823005555_create_users.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/20200823005555_create_users.up.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiserver" beforeDir="false" afterPath="$PROJECT_DIR$/apiserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/apiserver/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/apiserver/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/apiserver.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/apiserver.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/apiserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/app/apiserver/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/app/apiserver/config.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +57,12 @@
     </option>
   </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../../go1.15rc2" />
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/internal/app/model/user_test.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1grbYTb4LeHWFCQeLK5kfAK2SqE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,13 +73,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Makefile" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstProject" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internal/store/sqlstore" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -52,22 +105,54 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="781" y="338" key="#Go" timestamp="1598900396265">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="781" y="338" key="#Go/61.27.1859.1053@61.27.1859.1053" timestamp="1598900396265" />
     <state x="1152" y="432" width="400" height="327" key="#Go_Modules" timestamp="1598878495070">
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
     <state x="1152" y="432" width="400" height="327" key="#Go_Modules/61.27.1859.1053@61.27.1859.1053" timestamp="1598878495070" />
-    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598898887509">
+    <state x="294" y="544" width="1384" height="294" key="#SQL_Dialects" timestamp="1600676451712">
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
-    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser/61.27.1859.1053@61.27.1859.1053" timestamp="1598898887509" />
+    <state x="294" y="544" width="1384" height="294" key="#SQL_Dialects/61.27.1859.1053@61.27.1859.1053" timestamp="1600676451712" />
+    <state x="586" y="353" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600676460704">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="586" y="353" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/61.27.1859.1053@61.27.1859.1053" timestamp="1600676460704" />
+    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600697735811">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="1180" y="601" width="630" height="396" key="#com.intellij.fileTypes.FileTypeChooser/61.27.1859.1053@61.27.1859.1053" timestamp="1600697735811" />
+    <state x="955" y="420" width="518" height="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599483222494">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="955" y="420" width="518" height="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/61.27.1859.1053@61.27.1859.1053" timestamp="1599483222494" />
     <state x="1239" y="465" width="216" height="261" key="EnvironmentVariablesDialog" timestamp="1598878492405">
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
     <state x="1239" y="465" width="216" height="261" key="EnvironmentVariablesDialog/61.27.1859.1053@61.27.1859.1053" timestamp="1598878492405" />
+    <state x="774" y="317" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599719914887">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="774" y="317" width="424" height="484" key="FileChooserDialogImpl/61.27.1859.1053@61.27.1859.1053" timestamp="1599719914887" />
     <state width="1354" height="264" key="GridCell.Tab.0.bottom" timestamp="1598877050013">
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
@@ -84,9 +169,17 @@
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
     <state width="1354" height="264" key="GridCell.Tab.0.right/61.27.1859.1053@61.27.1859.1053" timestamp="1598877050013" />
-    <state x="480" y="194" key="SettingsEditor" timestamp="1598900385552">
+    <state x="851" y="151" key="SettingsEditor" timestamp="1599484445832">
       <screen x="61" y="27" width="1859" height="1053" />
     </state>
-    <state x="480" y="194" key="SettingsEditor/61.27.1859.1053@61.27.1859.1053" timestamp="1598900385552" />
+    <state x="851" y="151" key="SettingsEditor/61.27.1859.1053@61.27.1859.1053" timestamp="1599484445832" />
+    <state x="620" y="152" width="1200" height="811" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599485358113">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="620" y="152" width="1200" height="811" key="com.intellij.history.integration.ui.views.FileHistoryDialog/61.27.1859.1053@61.27.1859.1053" timestamp="1599485358113" />
+    <state x="769" y="481" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600409969949">
+      <screen x="61" y="27" width="1859" height="1053" />
+    </state>
+    <state x="769" y="481" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/61.27.1859.1053@61.27.1859.1053" timestamp="1600409969949" />
   </component>
 </project>
