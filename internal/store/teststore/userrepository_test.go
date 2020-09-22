@@ -1,11 +1,11 @@
 package teststore_test
 
 import (
+	"github.com/Mikeyteam/http-rest-api/internal/store/teststore"
 	"testing"
 
 	"github.com/Mikeyteam/http-rest-api/internal/app/model"
-	"github.com/Mikeyteam/http-rest-api/internal/app/store"
-	"github.com/Mikeyteam/http-rest-api/internal/app/store/teststore"
+	"github.com/Mikeyteam/http-rest-api/internal/store"
 	"github.com/stretchr/testify/assert"
 )
 

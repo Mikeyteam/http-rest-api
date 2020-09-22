@@ -2,7 +2,7 @@ package sqlstore
 
 import (
 	"github.com/Mikeyteam/http-rest-api/internal/app/model"
-	"github.com/Mikeyteam/http-rest-api/internal/store/"
+	"github.com/Mikeyteam/http-rest-api/internal/store"
 )
 
 type UserRepository struct {

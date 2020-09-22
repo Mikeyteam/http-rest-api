@@ -2,10 +2,9 @@ package teststore
 
 import (
 	"github.com/Mikeyteam/http-rest-api/internal/app/model"
-	"github.com/Mikeyteam/http-rest-api/internal/app/store"
+	"github.com/Mikeyteam/http-rest-api/internal/store"
 )
 
-// Store ...
 type Store struct {
 	userRepository *UserRepository
 }
